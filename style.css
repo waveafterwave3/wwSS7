@@ -1,0 +1,180 @@
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #00ff00;
+  }
+  
+ 
+  header {
+
+    
+    border: 2px solid #00cc00 ; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #333 ;
+    padding: 20px;
+    color: #66ff00 ;
+    text-align: center;
+  }
+  
+  header nav {
+    
+    margin-top: 0px;
+  }
+  
+  header nav a {  
+    font-weight: bold;
+  
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 24px;
+    color: #00ff00;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #333;
+  }
+  
+ 
+  main {
+    background-color: #333;
+    background-image: url(bg.jpg);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+
+  #about { 
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid #00cc00 ; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #333 ;
+
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #about h1 {
+    font-size: 36px;
+  }
+  
+  #about p {
+    font-size: 20px;
+  }
+  
+
+  .work-block {
+    border: 4px solid #00cc00 ; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    float: left;
+  }
+  
+  .work-block img {
+    width: 100%;
+    height: 60%;
+  }
+  .work-block h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .work-block p {
+    font-family: sans-serif;
+    color: #234fe0;
+    font-size: 18px;
+    margin: 5px;
+    text-align:center;
+  }
+  
+  
+  #contacts {
+    
+    border: 2px solid #00cc00; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #333;
+    
+  }
+  
+  #contacts h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #contacts ul {
+    text-align: center;
+    list-style: none;
+    color: #00cc00;
+    padding: 0;
+  }
+  
+  #contacts li {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #contacts a {
+    text-align: center;
+    color: #00cc00 ;
+    text-decoration: none;
+  }
+  
+  #contacts a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Футер сайта */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  #comments {
+    background-color: #333;
+    width: 500px;
+    margin: 0 auto;
+    border: 3px solid #00ff00;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  #comments h2 {
+    
+    margin-bottom: 20px;
+  }
+  
+  #comments form {
+
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #comments textarea {
+    color:#333;
+    background-color: #00ff00;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+    

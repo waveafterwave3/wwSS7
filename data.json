@@ -1,0 +1,39 @@
+{
+    "works": [
+      {
+    "name": "Работа 1",
+    "image": "image1.jpg",
+    "description": "Описание работы 1",
+        "link": ""
+      },
+      {
+    "name": "Работа 2",
+"image": "image2.jpg",
+    "description": "Описание работы 2",
+"link": ""
+},
+{
+    "name": "Работа 3",
+    "image": "image3.jpg",
+"description": "Описание работы 3",
+        "link": ""
+    },
+    {
+    "name": "Работа 4",
+    "image": "image4.jpg",
+    "description": "Описание работы 4",
+    "link": ""
+    }, {
+    "name": "Работа 5",
+    "image": "image5.jpg",
+    "description": "Описание работы 5",  "link": ""
+    },
+    {
+    "name": "Работа 6",
+    "image": "image6.jpg",
+    "description": "Описание работы 6",
+    "link": ""
+    }
+    ]
+  }
+  
